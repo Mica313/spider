@@ -1,0 +1,12 @@
+@use 'var';
+.header{
+    padding:20px;
+    background-color:rgba(0, 0, 0, 0.95);
+    h1{
+        padding:2px;
+        text-align: center;
+        @media (max-width:768px){
+            max-width: 335px;
+        }
+    }
+}
